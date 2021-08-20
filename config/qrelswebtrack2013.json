@@ -1,0 +1,7 @@
+{
+  "qrels_file": "data/processed_data/qrels_webtrack2013/qrels_final.txt",
+  "new_qrels_path": "data/processed_data/qrels_webtrack2013/qrels_discrete_aspects.txt",
+  "number_of_aspects": 3,
+  "pagerank_distribution": {"0":0.85,"1": 0.10, "2": 0.05},
+  "spam_cut_levels": {"0":[0,79], "1": [80,89], "2": [90,100]}
+}

@@ -1,0 +1,9 @@
+{
+  "index": "/data/indexes/cweb12catBmerged",
+  "runID": "merged_task_track",
+  "trecFormat": true,
+  "count": 1000,
+  "threads": 50,
+  "memory": "40G"
+}
+

@@ -1,0 +1,6 @@
+{
+  "qrels_file": "data/processed_data/mapped_qrels/qrels_euclidean_iteration_qrels_only_query.txt",
+  "runs_folder": "data/quick_solution/",
+  "rank_size": 1000,
+  "metric": "map"
+}

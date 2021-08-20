@@ -1,0 +1,10 @@
+{
+  "qrels_file": "data/qrels_decision/qrels_decision_3aspects.txt",
+  "new_qrels_path": "data/qrels_weighting_distanceorder/decision/skyline.txt",
+  "from_qrels": false,
+  "number_of_aspects": 3,
+  "greatest_label": [2, 1, 1],
+  "minimum_label": [0, 0, 0],
+  "aspect_step": [1,1,1],
+  "mapping": "iteration"
+}

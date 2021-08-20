@@ -1,0 +1,42 @@
+{
+  "top_runs_experiment":
+    {
+      "qrels_file": "data/processed_data/qrels/qrels_only_rel.txt",
+      "runs_folder": "data/runs/",
+      "models": ["bm25", "lm_jel", "lm_dir"],
+      "number_top_runs": 10,
+      "metric": "ndcg"
+    },
+  "average_experiment":
+    {
+      "runs_folder": "/home/lucas/Metrics/LLMS_multieval/data/runs_track_newids/2016",
+      "models": [""],
+      "metrics_list":
+      {
+        "ndcg_euclidean":{"qrels":"data/processed_data/mapped_qrels/qrels_euclidean_iteration_qrels_only_query.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_manhattan":{"qrels":"data/processed_data/mapped_qrels/qrels_manhattan_iteration_qrels_only_query.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_chebyshev":{"qrels":"data/processed_data/mapped_qrels/qrels_chebyshev_iteration_qrels_only_query.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_skyline":{"qrels":"data/processed_data/mapped_qrels/qrels_skylineorder_qrels_only_query.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_rel":{"qrels":"data/processed_data/qrels/qrels_only_rel.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_use":{"qrels":"data/processed_data/qrels/qrels_only_usefulness.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_pop":{"qrels":"data/processed_data/qrels/qrels_only_popularity.txt",
+          "metric": "ndcg"
+        },
+        "ndcg_cred":{"qrels":"data/processed_data/qrels/qrels_only_credibility.txt",
+          "metric": "ndcg"
+        }
+      }
+    }
+}

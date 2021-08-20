@@ -1,0 +1,8 @@
+{
+  "qrels_file": "data/processed_data/qrels/qrels_only_query.txt",
+  "pagerank_file": "data/pagerank.scoreOrder",
+  "spam_score_folder": "data/waterloo-spam-cw12-decoded/",
+  "number_of_aspects": 4,
+  "greatest_label": [2, 2],
+  "minimum_label": [0,0]
+}

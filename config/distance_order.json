@@ -1,0 +1,10 @@
+{
+  "qrels_file": "data/qrels_misinfo/qrels/misinfo-qrels",
+  "new_qrels_path": "data/qrels_misinfo/qrels/qrels_misinfo_manhattan.txt",
+  "from_qrels": false,
+  "number_of_aspects": 3,
+  "greatest_label": [1, 1, 1],
+  "minimum_label": [0, 0, 0],
+  "mapping": "iteration",
+  "distance_metric": "manhattan"
+}

@@ -1,0 +1,8 @@
+{
+    "qrels_file": "data/processed_data/qrels/qrels_discrete_aspects.txt",
+    "runs_folder": "data/quick_solution/",
+    "plots_path": "data/dataset_statistics/",
+    "number_aspects": 4,
+    "max_rank_pos": 20,
+    "rank_size": 1000
+}

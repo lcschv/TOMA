@@ -1,0 +1,8 @@
+{
+  "discriminative_parameters":
+  {
+    "alpha": 0.05,
+    "B": 1000
+  }
+
+}
